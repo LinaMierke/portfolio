@@ -25,19 +25,19 @@ export default function NavBar() {
         <div className={classes.root}>
             <AppBar position="static" style={{ backgroundColor: 'white', border: 'none', boxShadow: 'none' }}>
                 <Toolbar style={{ display: 'flex', justifyContent: 'left', }}>
-                    <Link to="/" >
-                        <Button style={{ paddingRight: '90px', color: '##292E46' }}>Home</Button>
+                    <Link to="/" style={{textDecoration: 'none' }}>
+                        <Button style={{ paddingRight: '90px', color: '##292E46', }}>Home</Button>
                     </Link>
 
-                    <Link >
+                    <Link style={{textDecoration: 'none' }}>
                         <Button style={{ paddingRight: '90px', color: '##292E46' }}>About </Button>
                     </Link>
 
-                    <Link to="/portfolio">
+                    <Link to="/portfolio" style={{textDecoration: 'none' }}>
                         <Button style={{ paddingRight: '90px', color: '##292E46' }}>Portfolio</Button>
                     </Link>
 
-                    <Link>
+                    <Link style={{textDecoration: 'none' }}>
                         <Button style={{ paddingRight: '90px', color: '#292E46' }}>Resume</Button>
                     </Link>
                 </Toolbar>
