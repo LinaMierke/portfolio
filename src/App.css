@@ -1,11 +1,52 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+
+}
+.image{
+  /* background-color: red; */
+  text-align: right;
+  width: 50vw;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img{
+  width: 100%;
+
 }
+.center{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+.name{
+  font-size: 70px;
+  color: #FF8E60;
+  /* padding-right: 80% */
+}
+.title{
+  font-size: 40px;
+  color: #292E46;
+}
+.parr{
+  font-size: 20px;
+}
+.information{
+  /* display: 'flex'; */
+  /* position: 'left'; */
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: middle;
+  margin-top: 15%;
+  width: 50vw;
+  /* position: absolute;                */
+  /* top: 50%;                          */
+   /* transform: 'translate(0, -50%)'  */
+
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
