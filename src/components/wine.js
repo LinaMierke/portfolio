@@ -15,16 +15,21 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LanguageIcon from '@material-ui/icons/Language';
 import Grid from '@material-ui/core/Grid';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     maxWidth: 345,
+    border: '6px solid #E1ECF3',
+    boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
+    borderRadius: '20px'
   },
   media: {
     height: 0,
     paddingTop: '56.25%', // 16:9
-    backgroundImage: "url('https://i.imgur.com/Zrr1qX2.png')"
+    backgroundImage: "url('https://i.imgur.com/Zrr1qX2.png')",
+    backgroundPosition: 'top'
   },
   expand: {
     transform: 'rotate(0deg)',
@@ -57,8 +62,8 @@ export default function Wine() {
             <Card className={classes.root}>
               <CardHeader
 
-                title="Mockup Page"
-                subheader="Interior Design"
+                title="Wine O'Clock"
+                subheader="12-2020"
               />
               <CardMedia
                 className={classes.media}
@@ -66,17 +71,21 @@ export default function Wine() {
               />
               <CardContent>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  This impressive paella is a perfect party dish and a fun meal to cook together with your
-                  guests. Add 1 cup of frozen peas along with the mussels, if you like.
-        </Typography>
+                Wine O'Clock was created for Wine Lovers and Wine enthusiast that want to have a place where to storage reviews about their wines, learn  and read from our Blog.         </Typography>
               </CardContent>
               <CardActions disableSpacing>
-                <IconButton aria-label="add to favorites">
+              <a href="https://github.com/LinaMierke/wine" target="_blank"> 
+               <IconButton aria-label="add to favorites"
+                >
                   <GitHubIcon />
                 </IconButton>
+              </a>
+                <a href="https://wineoclock.netlify.app/" target="_blank">
                 <IconButton aria-label="share">
+               
                   <LanguageIcon />
                 </IconButton>
+                </a>
                 <IconButton
                   className={clsx(classes.expand, {
                     [classes.expandOpen]: expanded,
@@ -92,8 +101,8 @@ export default function Wine() {
                 <CardContent>
                   {/* <Typography paragraph>Made with :</Typography> */}
 
-                  <Typography>
-                    CSS, REACT , JS
+                  <Typography style={{ color:"#DC7959"}}>
+                    React- JavaScript-Css-Material UI
           </Typography>
                 </CardContent>
               </Collapse>

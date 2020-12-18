@@ -20,11 +20,15 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     maxWidth: 345,
+    border: '6px solid #E1ECF3',
+    boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
+    borderRadius: '20px'
   },
   media: {
     height: 0,
     paddingTop: '56.25%', // 16:9
-    backgroundImage: "url('https://i.imgur.com/Zrr1qX2.png')"
+    backgroundImage: "url(https://i.imgur.com/BmDhmHF.png)",
+    backgroundPosition: 'top'
   },
   expand: {
     transform: 'rotate(0deg)',
@@ -57,8 +61,8 @@ export default function Python() {
             <Card className={classes.root}>
               <CardHeader
 
-                title="Mockup Page"
-                subheader="Interior Design"
+                title="Contact Book"
+                subheader="12-2020"
               />
               <CardMedia
                 className={classes.media}
@@ -66,17 +70,20 @@ export default function Python() {
               />
               <CardContent>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  This impressive paella is a perfect party dish and a fun meal to cook together with your
-                  guests. Add 1 cup of frozen peas along with the mussels, if you like.
-        </Typography>
+                  This python application will allow the user has the ability to search, update and delete a list of contacts.Read will contain all the proper directions to start.
+                </Typography>
               </CardContent>
               <CardActions disableSpacing>
-                <IconButton aria-label="add to favorites">
-                  <GitHubIcon />
-                </IconButton>
-                <IconButton aria-label="share">
-                  <LanguageIcon />
-                </IconButton>
+                <a href="https://github.com/LinaMierke/contact" target="_blank">
+                  <IconButton aria-label="add to favorites">
+                    <GitHubIcon />
+                  </IconButton>
+                </a>
+                <a href="https://github.com/LinaMierke/contact" target="_blank">
+                  <IconButton aria-label="share">
+                    <LanguageIcon />
+                  </IconButton>
+                </a>
                 <IconButton
                   className={clsx(classes.expand, {
                     [classes.expandOpen]: expanded,
@@ -92,7 +99,7 @@ export default function Python() {
                 <CardContent>
                   {/* <Typography paragraph>Made with :</Typography> */}
 
-                  <Typography>
+                  <Typography style={{ color:"#DC7959"}}>
                     CSS, REACT , JS
           </Typography>
                 </CardContent>

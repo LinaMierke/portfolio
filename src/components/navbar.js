@@ -29,7 +29,7 @@ export default function NavBar() {
                         <Button style={{ paddingRight: '90px', color: '##292E46', }}>Home</Button>
                     </Link>
 
-                    <Link style={{textDecoration: 'none' }}>
+                    <Link to="/about" style={{textDecoration: 'none' }}>
                         <Button style={{ paddingRight: '90px', color: '##292E46' }}>About </Button>
                     </Link>
 
@@ -37,9 +37,11 @@ export default function NavBar() {
                         <Button style={{ paddingRight: '90px', color: '##292E46' }}>Portfolio</Button>
                     </Link>
 
-                    <Link style={{textDecoration: 'none' }}>
-                        <Button style={{ paddingRight: '90px', color: '#292E46' }}>Resume</Button>
-                    </Link>
+                    {/* <Link style={{textDecoration: 'none' }}> */}
+                    <a href="https://drive.google.com/file/d/1q366vGZEZfJTWatG3BGPTsMzNKOX90EW/view?usp=sharing" target="_blank" style={{textDecoration:'none'}}>                  
+                    <Button style={{ paddingRight: '90px', color: '#292E46' }}>Resume</Button>
+                    </a>
+                    {/* </Link> */}
                 </Toolbar>
             </AppBar>
         </div>

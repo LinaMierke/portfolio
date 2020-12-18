@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
   media: {
     height: 0,
     paddingTop: '56.25%', // 16:9
-    backgroundImage: "url('https://i.imgur.com/vvZzqQo.png')",
+    backgroundImage: "url(https://i.imgur.com/yWvaZf2.png)",
     backgroundPosition: 'top'
   },
   expand: {
@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Mockup() {
+export default function CountriesAPI() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -61,8 +61,8 @@ export default function Mockup() {
             <Card className={classes.root}>
               <CardHeader
 
-                title="Mockup Page"
-                subheader="09-2020"
+                title="Countries API"
+                subheader="11-2020"
               />
               <CardMedia
                 className={classes.media}
@@ -70,16 +70,16 @@ export default function Mockup() {
               />
               <CardContent>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  This project is the mockup of an Interior design page. The page contains a grid,nav bar and is fully responsive to any device from the user.  
+                The countries database contains a lib folder, where you can find the data, connections, schemas and routes.Find all the countries around the world.
         </Typography>
               </CardContent>
               <CardActions disableSpacing>
-              <a href="https://github.com/LinaMierke/website" target="_blank"> 
+              <a href="https://github.com/LinaMierke/api_project" target="_blank">
                 <IconButton aria-label="add to favorites">
                   <GitHubIcon />
                 </IconButton>
                 </a>
-                <a href="https://linamierke.github.io/website/" target="_blank"> 
+                <a href=" https://linacountries.herokuapp.com/" target="_blank">
                 <IconButton aria-label="share">
                   <LanguageIcon />
                 </IconButton>
@@ -100,7 +100,7 @@ export default function Mockup() {
                   {/* <Typography paragraph>Made with :</Typography> */}
 
                   <Typography style={{ color:"#DC7959"}}>
-                    CSS - HTML 
+                    CSS, REACT , JS
           </Typography>
                 </CardContent>
               </Collapse>

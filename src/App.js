@@ -3,40 +3,49 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import base from "../src/components/yes.png"
 import NavBar from "../src/components/navbar"
 import All from "./components/All"
+import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
+import About from "./components/about"
+
+
 
 
 function App() {
   return (
     <div className="App">
+      <BrowserRouter>
+        <NavBar />
+        <Switch>
+          <Route exact path="/">
+            <div className="center" >
+              <div className="information">
+                <div className="name"> Lina Mierke</div>
+                <div className="title"> Software Developer </div>
+                <div className="arrow">
+                  <KeyboardArrowRightIcon />
+                </div>
+                
+                
 
-    
-
-    <BrowserRouter>
-
-    <NavBar/> 
-      <Switch>
-        <Route exact path="/">
-          
-          <div className="center" >
-            <div className="information">
-              <div className="name"> Lina Mierke</div>
-              <div className="title"> Software Developer </div>
+                
+                
+              </div>
+              <div >
+                <img src={base} alt="base" className="img" />
+              </div>
 
             </div>
+          </Route>
 
-            <div >
-              <img src={base} alt="base" className="img" />
-            </div>
+          <Route exact path="/portfolio">
+            <All />
+          </Route>
 
-          </div>
-        </Route>
-        
-        <Route exact path="/portfolio">
-          <All />
-        </Route>
+          <Route exact path="/about">
+            <About />
+          </Route>
 
 
-      </Switch>
+        </Switch>
       </BrowserRouter>
     </div>
   );

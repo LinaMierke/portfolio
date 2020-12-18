@@ -64,6 +64,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.arrow{
+  padding-left: 400px;
+}
 
 .App-link {
   color: #61dafb;
