@@ -21,7 +21,7 @@ function App() {
                 <div className="name"> Lina Mierke</div>
                 <div className="title"> Software Developer </div>
                 <div className="arrow">
-                  <KeyboardArrowRightIcon />
+                  {/* <KeyboardArrowRightIcon /> */}
                 </div>
                 
                 
