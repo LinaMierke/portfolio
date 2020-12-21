@@ -15,10 +15,10 @@ export default function About() {
                 <img src="https://i.imgur.com/KNheUPa.png" alt="girl" className="img" />
                 
             <a href="https://www.linkedin.com/in/linamierke/" target="_blank"> 
-            <LinkedInIcon style={{fontSize: 50, padding: '20px'}}/>
+            <LinkedInIcon style={{fontSize: 50, padding: '20px', color:'#4E127D'}}/>
             </a>
             <a href="https://github.com/LinaMierke" target="_blank"> 
-            <GitHubIcon style={{fontSize: 50, padding: '20px'}}/>
+            <GitHubIcon style={{fontSize: 50, padding: '20px', color:'#4E127D'}}/>
             </a>
             <a href="mailto:linamierke@gmail.com" target="_blank">
                <EmailIcon style={{fontSize: 50, padding: '20px', color:'#4E127D'}}/> 
