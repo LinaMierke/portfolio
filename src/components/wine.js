@@ -15,7 +15,6 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LanguageIcon from '@material-ui/icons/Language';
 import Grid from '@material-ui/core/Grid';
-import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -74,13 +73,13 @@ export default function Wine() {
                 Wine O'Clock was created for Wine Lovers and Wine enthusiast that want to have a place where to storage reviews about their wines, learn  and read from our Blog.         </Typography>
               </CardContent>
               <CardActions disableSpacing>
-              <a href="https://github.com/LinaMierke/wine" target="_blank"> 
+              <a href="https://github.com/LinaMierke/wine" target="_blank" rel="noopener noreferrer"> 
                <IconButton aria-label="add to favorites"
                 >
                   <GitHubIcon />
                 </IconButton>
               </a>
-                <a href="https://wineoclock.netlify.app/" target="_blank">
+                <a href="https://wineoclock.netlify.app/" target="_blank" rel="noopener noreferrer">
                 <IconButton aria-label="share">
                
                   <LanguageIcon />

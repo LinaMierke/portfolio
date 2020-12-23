@@ -1,0 +1,13 @@
+@media only screen and (max-width: 768px) {
+.bar{
+    padding: 0px;
+    /* color: red; */
+
+}
+Button{
+    padding: 10%;
+    color: red;
+}
+
+}
+

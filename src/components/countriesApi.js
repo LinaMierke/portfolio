@@ -74,12 +74,12 @@ export default function CountriesAPI() {
         </Typography>
               </CardContent>
               <CardActions disableSpacing>
-              <a href="https://github.com/LinaMierke/api_project" target="_blank">
+              <a href="https://github.com/LinaMierke/api_project" target="_blank" rel="noopener noreferrer">
                 <IconButton aria-label="add to favorites">
                   <GitHubIcon />
                 </IconButton>
                 </a>
-                <a href=" https://linacountries.herokuapp.com/" target="_blank">
+                <a href=" https://linacountries.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                 <IconButton aria-label="share">
                   <LanguageIcon />
                 </IconButton>
@@ -100,7 +100,7 @@ export default function CountriesAPI() {
                   {/* <Typography paragraph>Made with :</Typography> */}
 
                   <Typography style={{ color:"#DC7959"}}>
-                    CSS, REACT , JS
+                    Node-Express
           </Typography>
                 </CardContent>
               </Collapse>

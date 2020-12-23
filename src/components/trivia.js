@@ -74,12 +74,12 @@ export default function Trivia() {
         </Typography>
               </CardContent>
               <CardActions disableSpacing>
-              <a href="https://github.com/LinaMierke/TriviaGamE" target="_blank"> 
+              <a href="https://github.com/LinaMierke/TriviaGamE" target="_blank" rel="noopener noreferrer"> 
                 <IconButton aria-label="add to favorites">
                   <GitHubIcon />
                 </IconButton>
                 </a> 
-                <a href="https://linamierke.github.io/TriviaGamE/" target="_blank"> 
+                <a href="https://linamierke.github.io/TriviaGamE/" target="_blank" rel="noopener noreferrer"> 
                 <IconButton aria-label="share">
                   <LanguageIcon />
                 </IconButton>
@@ -100,7 +100,7 @@ export default function Trivia() {
                   {/* <Typography paragraph>Made with :</Typography> */}
 
                   <Typography style={{ color:"#DC7959"}}>
-                    CSS, REACT , JS
+                    JS-Html-React
           </Typography>
                 </CardContent>
               </Collapse>

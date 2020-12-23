@@ -1,11 +1,23 @@
-.container{
-    padding-top: 5%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));
-    grid-gap: 16px;
-    row-gap: 70px;
-    margin: 30px;
-    align-items: stretch;
-    justify-items: center;
-
+.container {
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));
+  grid-gap: 16px;
+  row-gap: 70px;
+  margin: 30px;
+  align-items: stretch;
+  justify-items: center;
 }
+@media only screen and (max-width: 768px) {
+  .container {
+    /* background-color: red; */
+    align-items: center;
+    /* width: 100%; */
+    /* display: flex; */
+    /* direction: column; */
+    /* font-size: 25px; */
+    margin-top: 10%;
+    /* width: 30px; */
+  }
+}
+

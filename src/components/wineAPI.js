@@ -76,12 +76,12 @@ export default function WineAPI() {
         </Typography>
               </CardContent>
               <CardActions disableSpacing>
-              <a href="https://github.com/LinaMierke/wineAPI" target="_blank"> 
+              <a href="https://github.com/LinaMierke/wineAPI" target="_blank" rel="noopener noreferrer"> 
                 <IconButton aria-label="add to favorites">
                   <GitHubIcon />
                 </IconButton>
                 </a>
-                <a href="https://wineoclock.herokuapp.com/wine" target="_blank"> 
+                <a href="https://wineoclock.herokuapp.com/wine" target="_blank" rel="noopener noreferrer"> 
                 <IconButton aria-label="share">
                   <LanguageIcon />
                 </IconButton>
@@ -102,7 +102,7 @@ export default function WineAPI() {
                   {/* <Typography paragraph>Made with :</Typography> */}
 
                   <Typography style={{ color:"#DC7959"}}>
-                    CSS, REACT , JS
+                  Node-Express
           </Typography>
                 </CardContent>
               </Collapse>

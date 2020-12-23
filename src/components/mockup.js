@@ -74,12 +74,12 @@ export default function Mockup() {
         </Typography>
               </CardContent>
               <CardActions disableSpacing>
-              <a href="https://github.com/LinaMierke/website" target="_blank"> 
+              <a href="https://github.com/LinaMierke/website" target="_blank" rel="noopener noreferrer"> 
                 <IconButton aria-label="add to favorites">
                   <GitHubIcon />
                 </IconButton>
                 </a>
-                <a href="https://linamierke.github.io/website/" target="_blank"> 
+                <a href="https://linamierke.github.io/website/" target="_blank" rel="noopener noreferrer"> 
                 <IconButton aria-label="share">
                   <LanguageIcon />
                 </IconButton>

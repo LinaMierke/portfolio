@@ -1,0 +1,24 @@
+@media only screen and (max-width: 768px) {
+  .container2 {
+    display: flex;
+    direction: column;
+    font-size: 22px;
+    height: 100%;
+    width: 100%;
+    justify-content: left;
+  }
+  .img{
+    width: 300px;
+  }
+  
+}
+.img{
+  width: 500px;
+}
+.container2{
+  justify-content: center;
+  display: flex;
+  direction: column;
+  font-size: 22px;
+
+}

@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import base from "../src/components/yes.png"
 import NavBar from "../src/components/navbar"
 import All from "./components/All"
-import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 import About from "./components/about"
 
 
@@ -24,13 +23,9 @@ function App() {
                   {/* <KeyboardArrowRightIcon /> */}
                 </div>
                 
-                
-
-                
-                
               </div>
               <div >
-                <img src={base} alt="base" className="img" />
+                <img src={base} alt="base" className="imge" />
               </div>
 
             </div>

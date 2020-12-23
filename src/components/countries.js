@@ -30,6 +30,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundImage: "url(https://i.imgur.com/HCLeAKJ.png)",
     backgroundPosition: 'top'
   },
+  
   expand: {
     transform: 'rotate(0deg)',
     marginLeft: 'auto',
@@ -43,6 +44,8 @@ const useStyles = makeStyles((theme) => ({
   avatar: {
     backgroundColor: red[500],
   },
+ 
+
 }));
 
 export default function Countries() {
@@ -74,12 +77,12 @@ export default function Countries() {
         </Typography>
               </CardContent>
               <CardActions disableSpacing>
-              <a href="https://github.com/LinaMierke/front_end_countries" target="_blank">
+              <a href="https://github.com/LinaMierke/front_end_countries" target="_blank" rel="noopener noreferrer">
                 <IconButton aria-label="add to favorites">
                   <GitHubIcon />
                 </IconButton>
                 </a>
-                <a href="https://linamierke.github.io/front_end/" target="_blank">
+                <a href="https://linamierke.github.io/front_end/" target="_blank" rel="noopener noreferrer">
                 <IconButton aria-label="share">
                   <LanguageIcon />
                 </IconButton>
@@ -100,7 +103,7 @@ export default function Countries() {
                   {/* <Typography paragraph>Made with :</Typography> */}
 
                   <Typography style={{ color:"#DC7959"}}>
-                    CSS, REACT , JS
+                    Node-Express-React-MaterialUI
           </Typography>
                 </CardContent>
               </Collapse>
