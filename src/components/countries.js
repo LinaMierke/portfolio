@@ -103,7 +103,7 @@ export default function Countries() {
                   {/* <Typography paragraph>Made with :</Typography> */}
 
                   <Typography style={{ color:"#DC7959"}}>
-                    Node-Express-React-MaterialUI
+                    React-MaterialUI
           </Typography>
                 </CardContent>
               </Collapse>

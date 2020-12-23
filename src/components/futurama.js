@@ -103,7 +103,7 @@ export default function Futurama() {
                   {/* <Typography paragraph>Made with :</Typography> */}
 
                   <Typography style={{ color:"#DC7959"}}>
-                  Node-Express-React-MaterialUI-Storybook
+                  React-MaterialUI-Storybook
           </Typography>
                 </CardContent>
               </Collapse>

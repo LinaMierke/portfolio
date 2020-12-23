@@ -100,7 +100,7 @@ export default function Trivia() {
                   {/* <Typography paragraph>Made with :</Typography> */}
 
                   <Typography style={{ color:"#DC7959"}}>
-                    JS-Html-React
+                    JS-Html-Css
           </Typography>
                 </CardContent>
               </Collapse>
