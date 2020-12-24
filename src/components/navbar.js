@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom'
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-// import button from '@material-ui/core/button';
+import Button from '@material-ui/core/Button';
 import './navbar.css'
 
 // const useStyles = makeStyles((theme) => ({
@@ -30,19 +30,19 @@ export default function NavBar() {
     return (
         <div className="nav">
         <div className="bar"> 
-            <AppBar position="static" style={{ backgroundColor: 'white', border: 'none', boxShadow: 'none' }}>
+            <AppBar position="inline" style={{ display: 'flex', backgroundColor: 'white', border: 'none', boxShadow: 'none' }}>
                 <Toolbar style={{ display: 'flex', justifyContent: 'left', }}>
                     <Link to="/" style={{textDecoration: 'none' }}>
-                        <button  className="uno" style={{ paddingRight: '90px', color: '##292E46', }}>Home</button>
+                        <Button  className="uno" style={{ paddingRight: '20px', color: '##292E46', }}>Home</Button>
                     </Link>
                     <Link to="/about" style={{textDecoration: 'none' }}>
-                        <button className="uno" style={{ paddingRight: '90px', color: '##292E46' }}>About </button>
+                        <Button className="uno" style={{ paddingRight: '20px', color: '##292E46' }}>About </Button>
                     </Link>
                     <Link to="/portfolio" style={{textDecoration: 'none' }}>
-                        <button  className="uno" style={{ paddingRight: '90px', color: '##292E46' }}>Portfolio</button>
+                        <Button  className="uno" style={{ paddingRight: '20px', color: '##292E46' }}>Portfolio</Button>
                     </Link>
                     <a href="https://drive.google.com/file/d/1q366vGZEZfJTWatG3BGPTsMzNKOX90EW/view?usp=sharing" target="_blank"  rel="noopener noreferrer" style={{textDecoration:'none'}}>                  
-                    <button  className="uno" style={{ paddingRight: '90px', color: '#292E46' }}>Resume</button>
+                    <Button  className="uno" style={{ paddingRight: '20px', color: '#292E46' }}>Resume</Button>
                     </a>
                 </Toolbar>
             </AppBar>

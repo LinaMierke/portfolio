@@ -1,11 +1,14 @@
 @media only screen and (max-width: 750px) {
 .uno{
-/* padding: 0px; */
-/* padding: 2%; */
-padding: 0%;
+display: flex;
+direction: row;
+padding: 10%;
 margin:0px;
-/* background-color: red; */
-font-size: 38px;
+background-color: red;
+font-size: 18px;
+}
+.nav{
+    width: 300%;
 }
 
 
