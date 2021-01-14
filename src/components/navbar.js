@@ -6,26 +6,9 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
 import './navbar.css'
 
-// const useStyles = makeStyles((theme) => ({
-//     root: {
-//         flexGrow: 1,
-        
-//         // backgroundColor: 'red'
-        
-//     },
-//     //   menuButton: {
-//     //     marginRight: theme.spacing(6),
-//     //   },
-//     title: {
-//         flexGrow: 1,
-        
-//     },
-    
-    
-// }));
+
 
 export default function NavBar() {
-    // const classes = useStyles();
 
     return (
         <div className="nav">
@@ -40,8 +23,9 @@ export default function NavBar() {
                     </Link>
                     <Link to="/portfolio" style={{textDecoration: 'none' }}>
                         <Button  className="uno" style={{ paddingRight: '20px', color: '##292E46' }}>Portfolio</Button>
+                    
                     </Link>
-                    <a href="https://drive.google.com/file/d/1q366vGZEZfJTWatG3BGPTsMzNKOX90EW/view?usp=sharing" target="_blank"  rel="noopener noreferrer" style={{textDecoration:'none'}}>                  
+                    <a href="https://drive.google.com/file/d/14QS7_sbr-C2ikjLXrtwCMpxZP-r1Iv3v/view?usp=sharing" target="_blank"  rel="noopener noreferrer" style={{textDecoration:'none'}}>                  
                     <Button  className="uno" style={{ paddingRight: '20px', color: '#292E46' }}>Resume</Button>
                     </a>
                 </Toolbar>

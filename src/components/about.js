@@ -12,21 +12,22 @@ export default function About() {
             <div style={{height: '50%', width: '50%'}}>
             <div className="inner"> 
             <h1> Hello! I am Lina </h1>
-            <p> I'm a DC based Software Developer who loves to create, learn and explore. 
-            Being in the Education field shows me the amazing power of knowledge and thanks to that I treat everyday as a new opportunity to grow and improve! I bring hard work, creativity, attention to detail, and excellent organizational skills to my daily work. If you want to know more about me don't hesitate to reach out to me. 
+            <p> I'm a Washington DC based Software Developer who loves to create, learn and explore. 
+            Being in the education field shows me the amazing power of knowledge and thanks to that I treat everyday as a new opportunity to grow and improve! I bring hard work, creativity, attention to detail, and excellent organizational skills to my daily work. If you want to know more don't hesitate to reach out to me. 
 
             </p>
             </div> 
                 <img src="https://i.imgur.com/KNheUPa.png" alt="girl" rel="noopener noreferrer" className="img" />
             <div className="social">       
             <a href="https://www.linkedin.com/in/linamierke/" target="_blank" rel="noopener noreferrer"> 
-            <LinkedInIcon style={{fontSize: 50, padding: '20px', color:'#4E127D'}}/>
+            <LinkedInIcon className="socials" style={{fontSize: 50, padding: '20px', color:'#4E127D'}}/>
             </a>
             <a href="https://github.com/LinaMierke" target="_blank" rel="noopener noreferrer"> 
-            <GitHubIcon style={{fontSize: 50, padding: '20px', color:'#4E127D'}}/>
+            <GitHubIcon className="socials" style={{fontSize: 50, padding: '20px', color:'#4E127D'}}/>
             </a>
             <a href="mailto:linamierke@gmail.com" target="_blank" rel="noopener noreferrer">
-               <EmailIcon style={{fontSize: 50, padding: '20px', color:'#4E127D'}}/> 
+               <EmailIcon  className="socials" style={{fontSize: 50, padding: '20px', color:'#4E127D'}}/> 
+               <span class="Email me"></span>
             </a>
             </div>
             </div>

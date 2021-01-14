@@ -100,6 +100,7 @@ export default function Python() {
                   {/* <Typography paragraph>Made with :</Typography> */}
 
                   <Typography style={{ color:"#DC7959"}}>
+                  <h4> Languages: </h4>
                     Python
           </Typography>
                 </CardContent>

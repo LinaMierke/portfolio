@@ -100,6 +100,7 @@ export default function Mockup() {
                   {/* <Typography paragraph>Made with :</Typography> */}
 
                   <Typography style={{ color:"#DC7959"}}>
+                  <h4> Languages: </h4>
                     CSS - HTML 
           </Typography>
                 </CardContent>
