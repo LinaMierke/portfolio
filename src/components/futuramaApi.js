@@ -101,7 +101,7 @@ export default function FuturamaAPI() {
 
                   <Typography style={{ color:"#DC7959"}}>
                   <h4> Languages: </h4>
-                  Node-Express
+                  Node · Express
           </Typography>
                 </CardContent>
               </Collapse>

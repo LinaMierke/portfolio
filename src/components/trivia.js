@@ -101,7 +101,7 @@ export default function Trivia() {
 
                   <Typography style={{ color:"#DC7959"}}>
                   <h4> Languages: </h4>
-                    JS-Html-Css
+                    JavaScript · HTML · CSS
           </Typography>
                 </CardContent>
               </Collapse>

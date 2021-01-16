@@ -104,7 +104,7 @@ export default function Countries() {
 
                   <Typography style={{ color:"#DC7959"}}>
                   <h4> Languages: </h4>
-                    React-MaterialUI
+                    React · MaterialUI
           </Typography>
                 </CardContent>
               </Collapse>

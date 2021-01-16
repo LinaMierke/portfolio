@@ -102,7 +102,7 @@ export default function Wine() {
 
                   <Typography style={{ color:"#DC7959"}}>
                     <h4> Languages: </h4>
-                    React- JavaScript-Css-Material UI
+                    React · JavaScript · CSS · MaterialUI
           </Typography>
                 </CardContent>
               </Collapse>

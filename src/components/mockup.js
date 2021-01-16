@@ -101,7 +101,7 @@ export default function Mockup() {
 
                   <Typography style={{ color:"#DC7959"}}>
                   <h4> Languages: </h4>
-                    CSS - HTML 
+                    CSS · HTML 
           </Typography>
                 </CardContent>
               </Collapse>

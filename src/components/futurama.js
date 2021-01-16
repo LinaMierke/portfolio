@@ -104,7 +104,7 @@ export default function Futurama() {
 
                   <Typography style={{ color:"#DC7959"}}>
                   <h4> Languages: </h4>
-                  React-MaterialUI-Storybook
+                  React · MaterialUI · Storybook
           </Typography>
                 </CardContent>
               </Collapse>

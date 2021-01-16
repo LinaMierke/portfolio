@@ -51,8 +51,10 @@
   .social {
     padding: 0;
     display: flex;
+    color: green;
     flex-wrap: nowrap;
   }
+  
 }
 @media (max-width: 400px) {
   .container2 {
