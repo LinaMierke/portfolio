@@ -17,7 +17,7 @@ export default function About() {
 
             </p>
             </div> 
-                <img src="https://i.imgur.com/KNheUPa.png" alt="girl" rel="noopener noreferrer" className="img" />
+                <img src="https://i.imgur.com/KNheUPa.png" alt="" rel="noopener noreferrer" className="img" />
             <div className="social">       
             <a href="https://www.linkedin.com/in/linamierke/" target="_blank" rel="noopener noreferrer"> 
             <LinkedInIcon className="socials" style={{fontSize: 50, padding: '20px', color:'#4E127D'}}/>

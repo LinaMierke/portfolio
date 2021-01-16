@@ -24,7 +24,7 @@ function App() {
                 
               </div>
               <div >
-                <img src={base} alt="base" className="imge" />
+                <img src={base} alt="" className="imge" />
               </div>
 
             </div>
