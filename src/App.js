@@ -4,7 +4,7 @@ import base from "../src/components/yes.png"
 import NavBar from "../src/components/navbar"
 import All from "./components/All"
 import About from "./components/about"
-import SubdirectoryArrowRightIcon from '@material-ui/icons/SubdirectoryArrowRight';
+// import SubdirectoryArrowRightIcon from '@material-ui/icons/SubdirectoryArrowRight';
 
 
 function App() {

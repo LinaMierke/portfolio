@@ -76,12 +76,11 @@
     /* position: align-self; */
 
   }
+  
 }
 
 
-.arrow{
-  /* display: none; */
-}
+
 
 .App-link {
   color: #61dafb;
@@ -98,16 +97,18 @@
 @media (max-width: 767px) {
   .App{
     flex: auto;
-    display: flex;
+    /* display: flex; */
     margin:0;
     align-items: left;
     height: 100vw;
+    width: 100%;
+  display: block;
+  position: relative;
 
   }
   .imge{
     width: 100vw;
     
-
   }
   
 }
