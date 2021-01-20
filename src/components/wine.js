@@ -70,7 +70,8 @@ export default function Wine() {
               />
               <CardContent>
                 <Typography variant="body2" color="textSecondary" component="p">
-                Wine O'Clock was created for Wine Lovers and Wine enthusiast that want to have a place where to storage reviews about their wines, learn  and read from our Blog.         </Typography>
+                Wine O’clock was created for Wine Lovers and Wine enthusiasts that want a place to store reviews about their wines, learn and read from our Blog        
+                 </Typography>
               </CardContent>
               <CardActions disableSpacing>
               <a href="https://github.com/LinaMierke/wine" target="_blank" rel="noopener noreferrer"> 
