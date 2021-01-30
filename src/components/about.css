@@ -1,14 +1,21 @@
-
 .img {
   width: 66vh;
   justify-content: center;
   display: flex;
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  bottom: 0%
 }
 .container2 {
   justify-content: center;
   display: flex;
   direction: column;
   font-size: 22px;
+}
+.social {
+  position: absolute;
+  left: 40%;
 }
 .socials:hover {
   background-color: rgb(240, 233, 240);
@@ -27,15 +34,23 @@
   .p {
     font-size: 22px;
   }
-  /* .img {
-    width: 100vw;
-    height: 100vw;
+  .img {
+    width: 80%;
+    height: 60%;
     margin: 0;
     padding: 0;
     display: center;
-  } */
-  
-  
+    position: absolute;
+    left: 50px;
+    top: 95%;
+
+  }
+  .social{
+    position: absolute;
+    left: 20%;
+    top: 85%;
+
+  }
 }
 @media (max-width: 400px) {
   .container2 {
@@ -44,27 +59,28 @@
     width: 100vw;
     height: 100vw;
     padding: 0;
-   
   }
   .p {
     font-size: 22px;
   }
   .img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 60%;
     margin: 0;
     padding: 0;
     display: center;
-    /* align-items: left; */
+    position: absolute;
+    left: 50px;
+
   }
   .social {
-    /* align-items: left; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    /* width: 100vw; */
     padding: 0;
-    /* margin-right: 900px; */
+    position: absolute;
+    left: 38%;
+    top: 100%;
+    
   }
-  
 }

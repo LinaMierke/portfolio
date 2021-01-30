@@ -4,10 +4,17 @@ import base from "../src/components/yes.png"
 import NavBar from "../src/components/navbar"
 import All from "./components/All"
 import About from "./components/about"
+import ReactGa from 'react-ga'
+import { useEffect } from 'react';
 // import SubdirectoryArrowRightIcon from '@material-ui/icons/SubdirectoryArrowRight';
 
 
 function App() {
+  useEffect(()=> {
+    ReactGa.initialize("UA-188409548-1")
+    //to report pageview
+    ReactGa.pageview(window.location.pathname + window.location.search)
+  }, [])
   return (
     <div className="App">
       <BrowserRouter>
