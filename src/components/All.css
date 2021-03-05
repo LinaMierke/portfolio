@@ -10,14 +10,10 @@
 }
 @media only screen and (max-width: 768px) {
   .container {
-    /* background-color: red; */
     align-items: center;
-    /* width: 10%; */
-    /* display: flex; */
-    /* direction: column; */
-    /* font-size: 25px; */
     margin-top: 0%;
-    /* width: 30px; */
+    margin-left: 2%;
+    
   }
 }
 

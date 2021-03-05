@@ -71,16 +71,12 @@
     display: center;
     position: absolute;
     left: 50px;
+    top: 146%;
 
   }
   .social {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     padding: 0;
-    position: absolute;
-    left: 38%;
-    top: 100%;
+    top: 130%;
     
   }
 }

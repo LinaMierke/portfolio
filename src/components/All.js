@@ -30,7 +30,6 @@ export default function All() {
                 <FuturamaAPI />
                 <Trivia />
                 <Mockup />
-                {/* <Books /> */}
             </div>
         </div>
 
