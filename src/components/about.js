@@ -15,7 +15,6 @@ export default function About() {
             I'm a Washington DC-based Software Developer who loves to study and create. As a former teacher I know the amazing
             power knowledge has in any individual so I treat every day as a new
             opportunity to learn. 
-            <br />
             I bring hard work, creativity, attention to
             detail, and excellent organizational skills to my daily work. If you
             want to know more about me, don't hesitate to reach out.
