@@ -3,7 +3,7 @@
 Find relavate information about Lina Mierke work, resume and contact information.
 @ 2021
 
-Visit the final version : [Lina Mierke's Portfolio] (https://www.linamierke.com)
+Visit the final version : [Lina Mierke's Portfolio](https://www.linamierke.com)
 
 
 ## Version History
