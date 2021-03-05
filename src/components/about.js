@@ -9,16 +9,16 @@ export default function About() {
     <div className="container2" style={{ paddingTop: "0" }}>
       <div style={{ height: "50%", width: "50%" }}>
         <div className="inner">
-          <h1> Hello! I'm Lina </h1>
+          <h1> Hello, I'm Lina </h1>
           <p>
             
-            I'm a Washington DC-based Software Developer who loves to learn and create. As a former teacher I know the amazing
+            I'm a Washington DC-based Software Developer who loves to study and create. As a former teacher I know the amazing
             power knowledge has in any individual so I treat every day as a new
-            opportunity grow as a person and as a professional! 
+            opportunity to learn. 
             <br />
             I bring hard work, creativity, attention to
             detail, and excellent organizational skills to my daily work. If you
-            want to know more, don't hesitate to reach out.
+            want to know more about me, don't hesitate to reach out.
           </p>
         </div>
 
