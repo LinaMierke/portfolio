@@ -1,11 +1,8 @@
-.img {
-  width: 66vh;
-  justify-content: center;
-  display: flex;
-  position: absolute;
-  left: 30%;
-  top: 50%;
-  bottom: 0%
+img {
+  width: 66%;
+  position:inherit;
+  bottom: 0%;
+
 }
 .container2 {
   justify-content: center;
@@ -43,13 +40,11 @@
     position: absolute;
     left: 50px;
     top: 95%;
-
   }
-  .social{
+  .social {
     position: absolute;
     left: 20%;
     top: 85%;
-
   }
 }
 @media (max-width: 400px) {
@@ -72,11 +67,9 @@
     position: absolute;
     left: 50px;
     top: 146%;
-
   }
   .social {
     padding: 0;
     top: 130%;
-    
   }
 }
