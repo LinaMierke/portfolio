@@ -45,7 +45,7 @@ export default function NavBar() {
               </Button>
             </Link>
             <a
-              href="https://docs.google.com/document/d/1OkJmj16TNvD3lDe7rLN2YTnEW76aaJN0HiYKjHWeS0c/edit"
+              href="https://docs.google.com/document/d/1OkJmj16TNvD3lDe7rLN2YTnEW76aaJN0HiYKjHWeS0c/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none" }}
